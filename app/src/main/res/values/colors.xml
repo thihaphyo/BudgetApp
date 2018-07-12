@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#9ea2a3</color>
+    <color name="colorAccent">#fedb43</color>
+    <color name="colorIcons">#626262</color>
+    <color name="colorPrimaryText">#000000</color>
+    <color name="colorSecondaryText">#777777</color>
+    <color name="colorTextSub">#969696</color>
+    <color name="colorWarning">#fa7001</color>
+
+    <color name="rippleColor">#80FFFFFF</color>
+</resources>

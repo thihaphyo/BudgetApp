@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bandarhtain.budgetapp.viewpods.ThreeTireChart xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_summary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_medium"
+    android:layout_marginRight="@dimen/margin_medium"
+    android:layout_marginTop="@dimen/margin_medium_2"
+    android:background="@drawable/corner"
+    android:elevation="@dimen/margin_small"
+    android:orientation="horizontal"
+    android:padding="@dimen/margin_medium">
+
+    <RelativeLayout
+        android:id="@+id/rl_income"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:foreground="@drawable/ripple"
+        android:background="@drawable/right_corner">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_income_lbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Income"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/text_regular" />
+
+        <TextView
+            android:id="@+id/tv_income"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_income_lbl"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="500000"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/text_regular_2x" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/right_corner">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_exp_lbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Expenses"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/text_regular" />
+
+        <TextView
+            android:id="@+id/tv_exp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_exp_lbl"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="500000"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/text_regular_2x" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_balance_lbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Balance"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/text_regular" />
+
+        <TextView
+            android:id="@+id/tv_balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_balance_lbl"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="500000"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/text_regular_2x" />
+
+    </RelativeLayout>
+
+</com.bandarhtain.budgetapp.viewpods.ThreeTireChart>
